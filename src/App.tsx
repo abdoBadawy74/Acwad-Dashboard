@@ -36,7 +36,7 @@ const App: React.FC = () => {
     <div className="flex min-h-screen bg-slate-50">
       <Sidebar currentPage={currentPage} onPageChange={handlePageChange} />
       
-      <div className="flex-1">
+      <div className="flex-1 overflow-hidden">
         <Header title={getPageTitle()} />
         
         <main className="p-6">

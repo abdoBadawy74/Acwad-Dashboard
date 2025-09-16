@@ -128,8 +128,8 @@ export function DataTable<T extends Record<string, any>>({
           {emptyMessage}
         </div>
       ) : (
-        <div className="overflow-x-auto">
-          <table className="w-full">
+        <div className="w-full overflow-x-auto">
+          <table className="overflow-x-auto">
             <thead className="bg-slate-50">
               <tr>
                 {columns.map((column) => (

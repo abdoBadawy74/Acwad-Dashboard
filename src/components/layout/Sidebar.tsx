@@ -39,7 +39,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
   return (
     <div
       className="w-64 bg-slate-900 text-white sticky top-0 right-0"
-      style={{ height: "100vh", width: "220px" }}
+      style={{ height: "100vh", minWidth: "220px" }}
     >
       <div className="p-6">
         <h1 className="text-xl font-bold">Acwad Dashboard</h1>
