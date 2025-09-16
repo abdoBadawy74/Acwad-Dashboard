@@ -4,6 +4,7 @@ import { Sidebar } from './components/layout/Sidebar';
 import { Header } from './components/layout/Header';
 import { DashboardPage } from './components/pages/DashboardPage';
 import { SubscribersPage } from './components/pages/SubscribersPage';
+import { CustomerReviews } from './components/pages/CustomerReviews';
 
 const App: React.FC = () => {
   const location = useLocation();
@@ -44,7 +45,7 @@ const App: React.FC = () => {
             <Route path="/" element={<DashboardPage />} />
             <Route path="/dashboard" element={<DashboardPage />} />
             <Route path="/subscribers" element={<SubscribersPage />} />
-            <Route path="/reviews" element={<div className="p-6 text-center text-slate-600">Customer Reviews page - Coming soon!</div>} />
+            <Route path="/reviews" element={<CustomerReviews />} />
             <Route path="/services" element={<div className="p-6 text-center text-slate-600">Services page - Coming soon!</div>} />
             <Route path="/team" element={<div className="p-6 text-center text-slate-600">Team Members page - Coming soon!</div>} />
             <Route path="/leadership" element={<div className="p-6 text-center text-slate-600">Leadership page - Coming soon!</div>} />

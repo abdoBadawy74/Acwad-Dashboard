@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Plus, Mail, Phone, Building, MessageSquare, Edit, Trash2 } from 'lucide-react';
+import { Plus, Mail, Phone, Building, Edit, Trash2 } from 'lucide-react';
 import { DataTable } from '../DataTable';
 import { Modal } from '../ui/Modal';
 import { Button } from '../ui/Button';
