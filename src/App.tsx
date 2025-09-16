@@ -12,6 +12,7 @@ import { ProjectCategories } from "./components/pages/ProjectCategories";
 import { FAQs } from "./components/pages/FAQs";
 import { Projects } from "./components/pages/Projects";
 import { Settings } from "./components/pages/Settings";
+import { PrivacyPolicySections } from "./components/pages/PrivacyPolicySections";
 // import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const App: React.FC = () => {
@@ -73,14 +74,7 @@ const App: React.FC = () => {
             <Route path="/projects" element={<Projects />} />
             <Route path="/faqs" element={<FAQs />} />
             <Route path="/settings" element={<Settings />} />
-            <Route
-              path="/privacy"
-              element={
-                <div className="p-6 text-center text-slate-600">
-                  Privacy Policy page - Coming soon!
-                </div>
-              }
-            />
+            <Route path="/privacy" element={<PrivacyPolicySections />} />
           </Routes>
         </main>
       </div>
