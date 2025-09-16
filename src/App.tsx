@@ -8,6 +8,7 @@ import { CustomerReviews } from "./components/pages/CustomerReviews";
 import { Services } from "./components/pages/Services";
 import { TeamMembers } from "./components/pages/TeamMembers";
 import { Leaderships } from "./components/pages/LeadershipMembers";
+import { ProjectCategories } from "./components/pages/ProjectCategories";
 // import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const App: React.FC = () => {
@@ -68,9 +69,7 @@ const App: React.FC = () => {
             <Route
               path="/project-categories"
               element={
-                <div className="p-6 text-center text-slate-600">
-                  Project Categories page - Coming soon!
-                </div>
+                <ProjectCategories />
               }
             />
             <Route
